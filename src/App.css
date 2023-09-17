@@ -1,3 +1,6 @@
 :root {
-  --primaty-50: rgb(250,250,250);
+  --primary-color: rgb(255,114,94);
+  --primary-white-color: rgb(255,255,255);
+  --login-input-form-border-color: rgb(198,198,198);
+  --login-input-form-border-focus-color: rgb(119, 119, 119);
 }

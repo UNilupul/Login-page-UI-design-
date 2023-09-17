@@ -1,0 +1,92 @@
+.login_page {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+
+.body-left-container {
+    grid-area: 1 / 1 / 6 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-img {
+    width: 600px;
+    height: 600px;
+}
+
+.body-right-container {
+    grid-area: 1 / 6 / 6 / 9;
+    /* background-color: blue; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: var(--primary-color);
+
+
+}
+
+.login-form_div  {
+    margin-top: 40px;
+}
+
+.login-form-heading {
+    text-align: center;
+
+}
+
+.login-form-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form-inputs label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.label-password {
+    margin-top: 15px;
+}
+
+.login-form-inputs input {
+    width: 447px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid var(--login-input-form-border-color);
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.login-form-inputs input:focus {
+    outline-color: var(--login-input-form-border-focus-color);
+}
+
+.login-btn {
+    width: 460px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--primary-white-color);
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
