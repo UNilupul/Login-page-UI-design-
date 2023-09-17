@@ -1,6 +1,7 @@
 :root {
   --primary-color: rgb(255,114,94);
   --primary-white-color: rgb(255,255,255);
+  --primary-black-color: rgb(0,0,0);
   --login-input-form-border-color: rgb(198,198,198);
   --login-input-form-border-focus-color: rgb(119, 119, 119);
 }

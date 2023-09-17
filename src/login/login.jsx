@@ -1,6 +1,7 @@
 import React from 'react'
 import './login.css'
 import loginImage from '../assets/login.png'
+import googleImage from '../assets/google.png'
 
 export default function Login() {
     return (
@@ -25,9 +26,19 @@ export default function Login() {
                                 <input type='password' className='input-password' id='password' />
                             </div>
 
+                            <a className='forgot-password' href="/forgot-password">Forgot password?</a>
+
                             <button className='login-btn'>Login</button>
                         </div>
 
+                        <div className='other-logins'>
+                            <p className='other-login_or'>or</p>
+                            <img src={googleImage} className='google-login-img' />
+                        </div>
+
+                        <p className='dont-have-account'>Don't have an Account?
+                            <a href='/register'>Register</a>
+                        </p>
                     </div>
 
                 </div>
